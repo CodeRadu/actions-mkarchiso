@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build ISO
-        uses: @coderadu/actions-mkarchiso@v1
+        uses: coderadu/actions-mkarchiso@v1
       - name: Upload ISO
         uses: actions/upload-artifact@v4
         with:
